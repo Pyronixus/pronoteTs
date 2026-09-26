@@ -25,7 +25,7 @@ If you are building a modern web service, backend API, or bot, **pronoteTs** bri
 ## Install
 
 ```bash
-npm install pronoteTs
+npm install pronotets
 ```
 
 ## Quick start

@@ -1,5 +1,5 @@
 {
-  "name": "pronoteTs",
+  "name": "pronotets",
   "version": "1.0.0",
   "description": "Full TypeScript port of pronotepy - an unofficial PRONOTE API client with the same encryption, protocol, ENT/SSO support and data model, for Node.js.",
   "license": "MIT",
