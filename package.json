@@ -1,0 +1,38 @@
+{
+  "name": "pronoteTs",
+  "version": "1.0.0",
+  "description": "Full TypeScript port of pronotepy - an unofficial PRONOTE API client with the same encryption, protocol, ENT/SSO support and data model, for Node.js.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./ent": {
+      "types": "./dist/ent/index.d.ts",
+      "import": "./dist/ent/index.js"
+    }
+  },
+  "engines": {
+    "node": ">=18.14"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -w -p tsconfig.json",
+    "example": "tsx assets/examples/example.ts",
+    "test": "node --test dist/test/*.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "tough-cookie": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "keywords": ["pronote", "pronotepy", "ent", "educonnect", "scolarite", "api-client"]
+}
