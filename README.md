@@ -1,13 +1,17 @@
-<div style="text-align: center;">
-<img src="assets/icon/icon.png" width="110" height="110" alt="icon image">
+<p align="center">
+  <img src="assets/icon/icon.png" width="110" height="110" alt="icon image">
+</p>
 
-# pronoteTs
+<h1 align="center">pronoteTs</h1>
 
-Full TypeScript port of [pronotepy](https://github.com/bain3/pronotepy) - an unofficial PRONOTE API client.
-Same protocol, same encryption (RSA-1024 + AES-128-CBC), same data model, same ENT/SSO providers. Built for Node.js ≥ 18.14 (requires native `fetch` with `Headers.getSetCookie()`).
+<p align="center">
+  Full TypeScript port of <a href="https://github.com/bain3/pronotepy">pronotepy</a> - an unofficial PRONOTE API client.<br>
+  Same protocol, same encryption (RSA-1024 + AES-128-CBC), same data model, same ENT/SSO providers. Built for Node.js ≥ 18.14 (requires native <code>fetch</code> with <code>Headers.getSetCookie()</code>).
+</p>
 
-See the [bilingual project page](https://pyronixus.github.io/pronoteTs) for a visual overview.
-</div>
+<p align="center">
+  See the <a href="https://pyronixus.github.io/pronoteTs">Multilingual (10+) project page</a> for a visual overview.
+</p>
 
 ## Install
 
