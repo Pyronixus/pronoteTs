@@ -13,6 +13,15 @@
   See the <a href="https://pyronixus.github.io/pronoteTs">Multilingual (10+) project page</a> for a visual overview.
 </p>
 
+## Why TypeScript?
+
+If you are building a modern web service, backend API, or bot, **pronoteTs** brings PRONOTE integration natively into the JavaScript / TypeScript ecosystem:
+
+- **End-to-End Type Safety & DX**: Enjoy autocompletion, instant inline documentation, and compile-time checks for all PRONOTE models (`Grade`, `Homework`, `Absence`, etc.) directly in VS Code or your IDE. No more guessing dictionary keys or handling unexpected runtime types.
+- **Async Native & Non-Blocking**: Built from the ground up around `Promise` and `async/await`. Unlike Python's `requests`-based blocking I/O, `pronoteTs` integrates seamlessly into modern asynchronous runtimes like **Node.js**, **Express**, **Fastify**, **NestJS**, or **Elysia** without blocking the event loop or needing complex thread pools.
+- **Modern JavaScript Standard**: Uses native Web APIs like `fetch` and modern standard library features, ensuring high performance, low overhead, and easy integration with modern Node.js environments (≥ 18.14).
+- **Single Language Ecosystem**: Avoid maintaining a Python microservice just to interact with PRONOTE when your primary application stack is written in TypeScript, Next.js, or React Native.
+
 ## Install
 
 ```bash
